@@ -1,6 +1,9 @@
-package com.javautli
+package com.javautlity;
+
+
 import java.sql.Date;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 public class JavaUtlity {	
 	public String getSystemDateYYYYMMDD() {
 		Date dateobj=new Date(0);
@@ -8,8 +11,8 @@ public class JavaUtlity {
 		String StartDate=sdf.format(dateobj);
 		return StartDate;		
 	}	
-import java.util.Random;
-public class JavaUtlity {
+
+
 	public static int random() {
 		Random random=new Random();
 		int num = random.nextInt();
@@ -17,3 +20,4 @@ public class JavaUtlity {
     //this method is created by harivardhan
 	}
 }
+

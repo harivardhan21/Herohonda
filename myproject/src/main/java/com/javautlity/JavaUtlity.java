@@ -7,7 +7,7 @@ public class JavaUtlity {
 
 	
 	public String getSystemDateYYYYMMDD() {
-		Date dateobj=new Date();
+		Date dateobj=new Date(0);
 		SimpleDateFormat sdf=new SimpleDateFormat("YYYY-MM-DD");
 		String StartDate=sdf.format(dateobj);
 		return StartDate;

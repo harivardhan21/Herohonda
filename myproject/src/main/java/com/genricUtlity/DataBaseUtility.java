@@ -1,4 +1,4 @@
-package com.javautlity;
+package com.genricUtlity;
 
 public class DataBaseUtility {
 	public static void main(String[] args) {
